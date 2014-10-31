@@ -1,5 +1,5 @@
 webOS App – Crack Your Display (de.omoco.cyd)
-====================================
+=============================================
 
 - Package ID : 	 de.omoco.cyd 
 - Version : 	 1.1.5 
