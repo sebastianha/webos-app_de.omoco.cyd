@@ -1,0 +1,27 @@
+#first
+{
+	z-index: 1000;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+	width:320px;
+	height:480px;
+	display: none;
+	background-image:url();
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+.second
+{
+	z-index: 1001;
+    position: absolute;
+	width:640px;
+	height:960px;
+	display: none;
+	background-image:url();
+	background-repeat: no-repeat;
+	background-position: top;
+}

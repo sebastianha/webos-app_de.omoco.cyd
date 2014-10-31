@@ -1,0 +1,64 @@
+<!--
+Crack Your Display - A Fun Application to shock your friends.
+Version 1.1.0 (21. Mar 2010)
+
+Copyright (C) 2010 Sebastian Hammerl (E-Mail: cyd@omoco.de)
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation; either version 3 of
+the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, see <http://www.gnu.org/licenses/>.
+-->
+
+<div id='admob_ad'></div>
+<div id="main">
+    <div id="main-body" class="itemFull">
+		<div class="palm-group">
+			<div class="palm-group-title" x-mojo-loc=''>How it works</div>
+			<div class="palm-list">
+		   		<div class="palm-row single">
+					<div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="true">
+		      			<small>
+		      				<b>1.</b> Start an App of your choice and make a Screenshot of it by pressing<br><center><b>orange + sym + p</b></center>
+							<b>2.</b> Select this image by tapping the "Select Image" button.<br>
+							<b>3.</b> Start and touch the display anywhere to "crack" your display.
+		      			</small>
+					</div>
+				</div>
+			</div>
+		</div>
+		<center>
+			<div style="width:100%;">
+				<div class="palm-row first" x-mojo-tap-highlight="momentary" style="width:290px;text-align:left;">
+					<div class="palm-row-wrapper">
+						<div id="crackselector" x-mojo-element="ListSelector"></div>   
+					</div>
+				</div>
+				<div class="palm-row last">
+					<div class="palm-row-wrapper">
+						<table class="palm-list-section-label">
+							<tr>
+								<td>
+									<span x-mojo-loc="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Multiple Cracks:</span>		
+								</td>
+								<td>
+									<div id="multicracks" x-mojo-element="ToggleButton" class="toggle-text"></div>
+								</td>	
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+		</center>
+		<button id='select_image' class='palm-button'>Select Image</button>
+		<button id='start' class='palm-button'>Start</button>
+	</div>
+</div>
